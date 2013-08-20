@@ -1,0 +1,110 @@
+#img-admin{
+	margin-top: 15px;
+	border-top: 1px solid #cdcdcd;
+	padding: 10px 0;
+}
+#img-admin .loader{
+	background: url('ajax-loader.gif');
+	width: 16px;
+	height: 11px;
+}
+#img-admin ul.img-admin-list{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+#img-admin ul.img-admin-list li{
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	margin-right: 10px;
+	border: 1px solid #CDCDCD;
+	position: relative;
+}
+#img-admin ul.img-admin-list li.ui-sortable-placeholder{
+	display: inline-block;
+	border: 1px dashed #666666;
+}
+#img-admin ul.img-admin-list li .handle{
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	background: url('reorder.png');
+}
+#img-admin ul.img-admin-list li:hover .actions{
+	display: block;
+}
+#img-admin ul.img-admin-list li .actions{
+	display: none;
+	width: 47px;
+	height: 55px;
+	background: #333333;
+	position: absolute;
+	top: 20px;
+	left: 50%;
+	margin-left: -30px;
+	text-align: center;
+	padding: 5px;
+	font-size: 12px;
+	font-weight: bold;
+}
+#img-admin ul.img-admin-list li .actions a{
+	display: block;
+	color: #ffffff;
+	background-color: #436CF2;
+	width: 40px;
+	text-decoration: none;
+	margin-bottom: 3px;
+	height: 16px;
+   padding: 4px 3px;
+	border: 1px solid #CDCDCD;
+}
+#img-admin ul.img-admin-list li .actions a:hover{
+	background-color: #ED9600;
+}
+#img-admin input.image-form-submit{
+	margin-top: 10px;
+	padding: 5px 10px;
+	color: #ffffff;
+	background-color: #436CF2;
+	border: 1px solid #CDCDCD;
+	cursor: pointer;
+}
+#img-admin input.submit-order{
+	display: none;
+}
+
+#img-admin a.image-action{
+	display: inline-block;
+	margin: 5px 0 20px 0;
+	padding: 5px 10px;
+	color: #ffffff;
+	background-color: #898888;
+	border: 1px solid #CDCDCD;
+	text-decoration: none;
+}
+
+#img-admin .response{
+	margin: 5px 0 15px 0;
+}
+
+#img-admin .response .success{
+	color: #00BF72;
+	font-weight: bold;
+}
+
+#img-admin .response ul.errors{
+	list-style: none;
+	margin: 0 0 5px 0;
+}
+
+#img-admin .response ul.errors li{
+	color: #CC0000;
+}
+
+#img-admin img.image-to-edit{
+	border: 1px solid #666666;
+	margin-bottom: 15px;
+}
