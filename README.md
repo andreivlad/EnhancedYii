@@ -1,3 +1,6 @@
+Enhanced Yii
+Project page: - http://www.xlteam.nl/enhanced-yii/
+- Default admin credentials: admin/test
 FEATURES
 - easy image administration (with create, edit, delete and drag and drop reorder)
 - assets under protected/views/assets
